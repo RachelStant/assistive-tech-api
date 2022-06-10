@@ -1,6 +1,5 @@
 import express from 'express';
-import dotenv from 'dotenv'
-import bodyParser from 'body-parser'
+import bodyParser from 'body-parser';
 import cors from 'cors';
 import lendingRouter from './routes/lendingLibrary.js';
 import path from 'path';
